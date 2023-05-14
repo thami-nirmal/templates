@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <form action="{% url 'save_form' %}" method="post">
+        <form action="{% url 'saveform' %}" method="post">
             {% csrf_token %}
             <h1>Student Form</h1>
             {{form.as_p}}
